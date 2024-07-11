@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 2;
+  padding: 2;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: white;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#apodList {
+  margin-top: 20px;
+}
+
+.apod-item {
+  margin-bottom: 20px;
+}
+
+.apod-item img {
+  max-width: 50%;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.apod-item h3 {
+  margin: 10px 0;
+}
